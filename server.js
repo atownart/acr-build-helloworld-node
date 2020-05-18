@@ -4,7 +4,7 @@ const port = 80
 
 const server = http.createServer((request, response) => {
   response.writeHead(200, {'Content-Type': 'text/plain'})
-  response.write('Hello World 3 :)\n')
+  response.write('Built from YAML task :)\n')
   response.end('Version: ' + process.env.NODE_VERSION + '\n')
 })
 
